@@ -1,0 +1,53 @@
+[ ] wide = 1 run (wide) + 1-4 runs (extra wides)
+    - Wides are recorded as a negative statistic in a bowler's record.
+    - If batsman takes additional runs, they are scored as wides, not byes. These extra wides are all added to the bowler's score.
+    - If the ball travels all the way to the boundary, the batting team immediately scores five wides.
+    - If the ball crosses the boundary without touching the ground, only five wides (not seven) are scored.
+
+[ ] nb = 1 run + 1-6 runs
+    - If the batsman hits the ball and takes runs, these are scored as runs by the batsman.
+    - Runs may also be scored without the batsman hitting the ball, but these are recorded as No ball extras rather than byes or leg byes.
+
+[ ] lb = 1-6 runs
+    - Runs scored are scored as leg byes, and they are added to the team's total, but not to the batsman, nor to the bowler.
+    - In case of a boundary, the batting team immediately scores four leg byes.
+
+[ ] b = 1-4 runs
+    - Runs are added to the team's total, but not to the batsman.
+    - In case of boundary, it recorded as four byes (even if it does not hit the ground).
+    - byes are considered to be the fault of the wicket-keeper, and are considered negatively against the wicket-keeper's record.
+
+
+No Ball:
+    - no run
+    - 1-6 runs - hit - 1 no ball, rest runs to batsman
+    - 1-6 runs - bye/legbye - all no balls
+<runs type="boundary"  offbat="yes">
+    
+192.168.1.73/~pi/confirm.php?date=2017-12-30
+
+192.168.1.73/~pi/cricket.php?date=2017-12-30&match=1
+http://www.espncricinfo.com/icc-world-twenty20-2016/engine/match/951327.html?innings=1;view=commentary
+
+Delivery = Good, Wide, NB, Bye, Leg Bye [, free hit?]
+  <out> </out> ... Bowled, Caught, Runout, Retired Hurt
+    <involved> </involved> ... A, A/B (runout case)
+
+Overs = 5 - 20
+Teams
+Players
+    Name
+    Email
+    Phone
+    HSC/A-Levels
+
+Features:
+    Ball-by-ball scoring
+    Drop-down player selection
+    
+
+Missed chances:
+    missed runout chance
+    missed stumping chance
+    missed caughtout chance
+    missed bowled out chance (due to noball)

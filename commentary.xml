@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <commentary>
-  <innings team="Bangladesh">
+  <innings order="1" team="Bangladesh">
     <ball order="1" delivery="ok">
       <bowler>Bilal Khan</bowler>
       <striker>Tamim Iqbal</striker>
@@ -123,7 +123,7 @@
     <!-- over -->
     <!-- over -->
   </innings>
-  <innings team="Oman">
+  <innings order="2" team="Oman">
     <ball order="1" delivery="ok">
       <bowler>Taskin Ahmed</bowler>
       <striker>Zeeshan Maqsood</striker>
